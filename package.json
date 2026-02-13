@@ -1,0 +1,23 @@
+{
+  "name": "playwrite-test-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChetanSalunkhe-24/playwrite-test-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ChetanSalunkhe-24/playwrite-test-automation/issues"
+  },
+  "homepage": "https://github.com/ChetanSalunkhe-24/playwrite-test-automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.3"
+  }
+}
