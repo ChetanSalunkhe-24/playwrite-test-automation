@@ -1,5 +1,4 @@
 import { Page, Locator } from '@playwright/test';
-
 export class LoginPage{
     
     readonly page: Page;
@@ -30,5 +29,4 @@ export class LoginPage{
     async getErrorMessage(): Promise<string>{
         return await this.errorMessage.textContent() || '';
     }
-
 }
