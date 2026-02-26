@@ -1,10 +1,10 @@
 import { test, expect} from '@playwright/test'
-import { endpoint } from '../../Utilities/endpoints'
+import { URL } from '../../Utilities/endpoints'
 import { assert } from 'node:console';
 
 test('Verify radio button functionality', async({ page }) => {
     //Navigate to the radio button screen
-    page.goto(endpoint.radioButtons);
+    page.goto(URL.radioButtonsScreen);
 
     //Locators
     const radioBtn1 = page.locator('#radio-button1');

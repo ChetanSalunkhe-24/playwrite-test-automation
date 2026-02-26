@@ -1,9 +1,9 @@
 import { test, expect} from '@playwright/test'
-import { endpoint } from '../../Utilities/endpoints'
+import { URL } from '../../Utilities/endpoints'
 
 test('Verify checkbox button and reset button functionality', async({ page }) => {
     // Navigate to the checkbox page
-    await page.goto(endpoint.checkbox);
+    await page.goto(URL.checkboxScreen);
     
     // Locator Checkboxes
     const firstCheckBox = page.locator('#checkbox1');
