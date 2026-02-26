@@ -8,7 +8,7 @@ export class LoginPage{
     readonly errorMessage: Locator;
 
     constructor(page: Page){
-        this.page = page;
+        this.page = page;   
 
         this.emailInput = page.locator('#email');
         this.passwordInput = page.locator('#password');
